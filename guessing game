@@ -1,0 +1,16 @@
+secretWord="apple"
+guess=""
+count=0
+limit=3
+outOfGuess=False
+while guess!=secretWord and not(outOfGuess):
+    if count<limit:
+        guess = input("Secret word is: ")
+        count += 1
+    else:
+        outOfGuess=True
+if outOfGuess:
+    print("Out of guesses. YOU LOSE!")
+else:
+    print("You win!☺")
+
