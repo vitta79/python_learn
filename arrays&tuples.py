@@ -1,3 +1,5 @@
+from typing import List
+
 tuparr=(44,85,96,57)
 intarr=[12,5,9]
 strarr=["Winter","Spring","Summer","Autumn"]
